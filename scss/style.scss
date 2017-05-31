@@ -1,0 +1,21 @@
+@import "normalize";
+@import "main";
+
+$brand-color: green;
+$spacing: 20px;
+
+body {
+	background:lighten( $brand-color, 30% );
+}
+.site-header {
+	h1 {
+		color:$brand-color;
+
+		&:hover {
+			color:white;
+		}
+	}
+	.logo {
+		width:100px - ( $spacing * 2);
+	}
+}
